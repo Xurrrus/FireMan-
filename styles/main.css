@@ -1,0 +1,170 @@
+input[type=number]{
+	height: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 3rem;
+    text-align: center;
+}
+
+#title{
+	font-size: 26px;
+	line-height: 75px;
+}
+
+body{
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(47,72,88,1) 100%);
+}
+
+
+.menu-object{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 75px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+/*p{
+	text-align: center;
+}*/
+
+button.menu-object:active{
+	font-size: 18px;
+	width: 275px;
+	height: 70px;
+}
+
+button.menu-object:hover:not(:active){
+	font-size: 22px;
+	width: 325px;
+	height: 85px;
+}
+
+
+body{
+    background-image: url("/resources/starsassets/carretera2.png");
+}
+
+div{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial Black;
+    
+    background: linear-gradient(#616161, #464646);
+    border: 10px solid #ffbf5f;
+    
+    width: 800px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 0px;
+}
+
+
+
+
+.container {
+	margin: 50px;
+	display: block;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+  }
+  
+  .pixel2 {
+	font-size: 25px;
+	color: white;
+	height: auto;
+	margin: 10px;
+	font-family: 'VT323';
+	
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-transform: uppercase;
+	
+	cursor: pointer;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .pixel2:active {
+	top: 2px;
+  }
+  
+  .pixel2 {
+	position: relative;
+	display: block;
+	margin: 10px;
+	margin-bottom: 30px;
+	font-family: 'VT323';
+	text-transform: uppercase;
+	
+	font-size: 25px;
+	color: white;
+  }
+  
+  .pixel2::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	left: -10px;
+	right: -10px;
+	background: black;
+	z-index: -1;
+  }
+  
+  .pixel2::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 4px;
+	bottom: 4px;
+	left: -6px;
+	right: -6px;
+	background: black;
+	z-index: -1;
+  }
+  
+  .pixel2 {
+	padding: 10px 10px;
+	position: relative;
+	background: black;
+	width: auto;
+	z-index: 2;
+  }
+
+#Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Logo:hover{
+    animation: animacioFoc 1s linear reverse infinite;
+}
+
+@keyframes animacioFoc {
+    /*0% {transform: scale(1);}
+    50% {transform: scale(.5);}
+    100% {transform: scale(1);}*/
+
+    10% {transform: scaleX(1);}
+    40% {transform: scaleX(-1)}
+    60% {transform: scaleX(-1)}
+    90% {transform: scaleX(1)}
+}
+
+svg{
+	align:left;
+}
